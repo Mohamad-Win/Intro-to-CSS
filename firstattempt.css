@@ -1,0 +1,26 @@
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: wavy underline plum;
+    font-weight: bolder;
+}
+
+h2, h3 {
+    color: bisque;
+    text-align: left;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+button {
+    background-color: antiquewhite;
+    color: chocolate;
+}
+
+p {
+    color: olive;
+    text-align: left;
+    font-weight: bold;
+    line-height: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
