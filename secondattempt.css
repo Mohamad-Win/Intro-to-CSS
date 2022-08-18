@@ -1,0 +1,64 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: black;
+}
+
+button {
+    background-color: aquamarine;
+}
+
+#vote {
+    background-color: coral;
+    color: aliceblue;
+}
+
+.tag {
+    color: whitesmoke ;
+    background-color: pink;
+}
+
+h2:nth-of-type(2n){
+    background-color: cadetblue;
+}
+
+li a {
+    color: crimson;
+}
+
+nav > a {
+    font-size: large;
+    color: maroon
+}
+
+input[type="text"] {
+    color: darkgreen;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: line-through;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+
+a:active {
+    background-color: blueviolet;
+}
+
+button:active {
+    background-color: blue;
+}
+
+h2::first-letter {
+    font-size: larger;
+    color: red;
+}
+
+h2::selection {
+    color: orange;
+}
