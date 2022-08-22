@@ -1,0 +1,20 @@
+img {
+    width: 25%;
+    margin: 2%
+}
+
+nav {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.5em;
+    height: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 3px solid salmon;
+    margin-left: 2%;
+    padding: 10px;
+    
+}
+
+
+/* section {
+
+} */

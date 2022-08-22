@@ -1,0 +1,72 @@
+h2 {
+    color: dodgerblue;
+}
+
+h3 {
+    color: blue;
+}
+
+#section_one {
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+}
+
+#section_two {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+/* This is an example of using the alpha channel */
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* This is an example of opacity */
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.5;
+
+}
+
+#property_position > section:not(#property_position_fixed) {
+    display: inline-block;
+}
+
+#property_position > section:not(:first-child):not(#property_position_fixed)  {
+    margin-left: 50px;
+}
+
+#blackbox {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+#yellowbox {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+#property_position_relative #yellowbox {
+    position: relative;
+    bottom: 25px;
+}
+
+#property_position_fixed #yellowbox {
+    position: fixed;
+}
+
+
+
+
