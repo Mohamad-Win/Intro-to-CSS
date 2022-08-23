@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    /* Justify content relies/works off flex direction and is on MAIN AXIS*/
+    justify-content: center;
+    /* Align items is on the CROSS AXIS */
+    align-items: center;
+    /* If you only have one row or column, or you don't have flex wrap in use,
+    align content does nothing */
+    align-content: center;
+    /* Align-self is used on specific element in a flex box and overrides the flex
+    grids rules 
+    align-self: center;
+    */
+    
+}
+
+#container div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* Initial size element should be added in to flex box as, might be width
+    or height depending on direction of main axis */
+    flex-basis: 800px;
+    /* Flex-grow takes up all the additional space */
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+}
+
+div:nth-of-type(3){
+align-self: flex-end;
+}
